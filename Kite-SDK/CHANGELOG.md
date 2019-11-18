@@ -1,3 +1,11 @@
+## 8.2.1
+- Removed Facebook & Instagram option from image picker
+- Updated to the latest Photobook
+
+### 8.1.1
+- Updated to the latest Photobook
+- Fixed interface to light mode
+
 ## 8.1.0
 - Added support for 3DS2 payments
 - Fixes and improvements

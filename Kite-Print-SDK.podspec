@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                = 'Kite-Print-SDK'
-  spec.version             = '8.1.0'
+  spec.version             = '8.2.1'
   spec.license             = { :type => 'MIT', :file => 'Kite-SDK/LICENSE' }
   spec.homepage            = 'https://github.com/OceanLabs/iOS-Print-SDK'
   spec.authors             = {'Deon Botha' => 'deon@oceanlabs.co'}
@@ -12,8 +12,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url    = 'https://twitter.com/dbotha'
   spec.module_name         = 'KiteSDK'
   spec.default_subspec     = 'Core'
-  spec.dependency "Photobook", "~> 2.1.0"
-  spec.dependency "NXOAuth2Client"
+  spec.dependency "Photobook", "~> 2.1.2"
 
   spec.subspec 'Core' do |core|
     core.source_files      = ['Kite-SDK/PSPrintSDK/OL*.{h,m}', 'Kite-SDK/PSPrintSDK/RMImageCropper/*.{h,m}', 'Kite-SDK/PSPrintSDK/Categories/*.{h,m}']
